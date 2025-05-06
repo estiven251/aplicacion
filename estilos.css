@@ -1,0 +1,113 @@
+/*Primer punto de la guia*/
+.my-button {
+    background-color: blue; /* Color de fondo por defecto */
+    color: white; /* Color de la letra por defecto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: solid var(--color1); /* Eliminar borde */
+    cursor: pointer; /* Cambiar el cursor a mano */
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+  
+  .my-button:hover {
+    background-color: var(--color2); /* Color de fondo al pasar el ratón */
+    color: var(--color1); /* Color de la letra al pasar el ratón */
+}
+h1{
+  text-align: center;
+}
+/*Segundo punto de la guia*/
+.mensaje{
+  color: var(--color1);
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+#mensa{
+display: none;
+text-align: center;
+font-size: 20px;
+}
+#mensa:target{
+display: block;
+}
+/*tercer punto de la guia*/
+.contenedor > :first-child {
+  font-weight: bold; 
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+.hijo2{
+  font-size: 20px;
+  text-align: center;
+}
+/*Cuarto punto de la guia*/
+.contenedor2{
+  font-size: 20px;
+  text-align: center;
+}
+input:invalid{
+  background-color: rgb(209, 134, 134);
+}
+/*Quinto punto de la guia*/
+input[type="email"]
+{
+  border: 2px solid rgb(68, 0, 255);
+  background-color: rgb(130, 226, 255);
+
+}
+/*sexto punto de la guia*/
+input[type="text"]:focus,
+textarea:invalid:focus {
+  box-shadow: 0 0 5px var(--color2); /* Agrega un efecto de sombra al enfocarse */
+}
+/*Ejercicio 7*/
+.Ejercicio7{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.Ejercicio7 > h2:only-of-type{
+  color: var(--color2);
+  font-size: 25px;
+}
+/*Ejercicio 8*/
+.ejer8{
+  text-align: center;
+  font-size: 20px medium;
+
+}
+.ejer8 > p:first-of-type{
+  
+  font-size: 20px;
+  color: var(--color2);
+}
+/*noveno punto de la guia*/
+h4{
+  font-size: 30px;
+  color: var(--color2);
+  font-style: italic;
+  text-align: center;
+}
+:root{
+  --color1: rgb(0, 0, 0);
+  --color2: red;
+}
+/*Ejercicio 10 y 18*/
+header{
+  font-size: 35px ;
+  text-decoration: none;
+  position: fixed;
+}
+a {
+  text-decoration: none;
+  color: orange;
+  
+}
+header a:hover {
+  background-color: var(--color2);
+  color: var(--color1);
+}
+/*Ejercicio 11*/
